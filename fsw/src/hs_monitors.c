@@ -265,9 +265,9 @@ void HS_MonitorEvent(CFE_SB_MsgPtr_t MessagePtr)
         ** Check this Event Monitor if it has an action, and the event IDs match
         */
         if ((ActionType != HS_EMT_ACT_NOACT) &&
-            (HS_AppData.EMTablePtr[TableIndex].EventID == EventPtr->PacketID.EventID))
+            (HS_AppData.EMTablePtr[TableIndex].EventID == EventPtr->Payload.PacketID.EventID)) 
         {
-            if ( strncmp(HS_AppData.EMTablePtr[TableIndex].AppName, EventPtr->PacketID.AppName, OS_MAX_API_NAME) == 0 )
+            if ( strncmp(HS_AppData.EMTablePtr[TableIndex].AppName, EventPtr->Payload.PacketID.AppName, OS_MAX_API_NAME) == 0 )
             {
 
                 /*
