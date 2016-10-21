@@ -1,6 +1,6 @@
 # cFS: Health and Safety
 
-[![GitHub release](https://img.shields.io/github/release/yusend/cfs-hs.svg)](https://github.com/yusend/cfs-hs/releases)
+[![GitHub release](https://img.shields.io/github/release/lassondesat/cfs-hs.svg)](https://github.com/lassondesat/cfs-hs/releases)
 
 * [Original README](cfs-hs-app-OSS-readme.txt)
 
@@ -30,5 +30,5 @@ and CPU Aliveness Indication (via UART).
 
 * https://sourceforge.net/projects/cfs-hs/
 
-[osal]: https://github.com/yusend/osal
-[cfe]: https://github.com/yusend/coreflightexec
+[osal]: https://github.com/lassondesat/osal
+[cfe]: https://github.com/lassondesat/coreflightexec
